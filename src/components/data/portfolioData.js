@@ -17,65 +17,42 @@
  */
 export const portafolioData = [
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
+		imgSrc: '/public/img/restaurant.png',
+		title: 'Le Quai Antique',
+		skills: ['JavaScript', 'PHP', 'Bootstrap', 'AdobeXD'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+			'Site du restaurant "Quai Antique" permettant la création d\'un compte client et la prise de réservation en ligne.',
+		demoURL: 'https://quaiantiqueecf.alwaysdata.net/index.php',
+		repoURL: 'https://github.com/NaomiMd/ECF',
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg',
-		title: 'E-commerce',
-		skills: ['JavaScript', 'Bootstrap'],
+		imgSrc: '/public/img/logo.png',
+		title: 'Animacare',
+		skills: ['JavaScript', 'Bootstrap', 'PHP', 'AdobeXD'],
 		descripcion:
-			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+			'Site d\'une Clinique Vétérinaire permettant la prise de rendez-vous en ligne et la création d\'un compte client.',
+		repoURL: 'https://github.com/NaomiMd/Animacare',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
 	},
 	{
-		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
+		imgSrc: '/public/img/charles.png',
+		title: 'Portfolio Photographe',
+		skills: ['JavaScript', 'CSS', 'Bootstrap', 'AdobeXD'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+			'Création d\'un portfolio en ligne pour un photographe. Création des maquettes via Adobe XD.',
+		repoURL: 'https://github.com/NaomiMd/Eval-FrontEnd',
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: 'https://www.corse.mx/cdn/shop/files/tienda_lenceria-lenceria-hot_sale-ofertas-mexico-lenceria_seyx-encaje-corse_mx-corse_lenceria_1200_x_560_px_13.png?v=1712270274&width=1500',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
+		imgSrc: '/public/img/lily.png',
+		title: 'Lily & Co',
+		skills: ['Figma'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+			'Maquettes et prototypes d\'un site de skincare réalisé avec Figma.',
+		demoURL: 'https://www.behance.net/gallery/214306209/Lily-Co',
 		anim: 'fade-left',
-	},
-	{
-		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
-		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
-		anim: 'fade-left',
-	},
-	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
-		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
-		anim: 'fade-right',
 	}
 ];
 
@@ -88,6 +65,9 @@ const skillIcons = {
 	StyledComponents: 'skill-icons:styledcomponents',
 	Bootstrap: 'skill-icons:bootstrap',
 	Tailwind: 'skill-icons:tailwindcss-dark',
+	PHP: 'skill-icons:php-dark',
+	AdobeXD: 'skill-icons:xd',
+	Figma: 'skill-icons:figma-dark',
 };
 
 /**
